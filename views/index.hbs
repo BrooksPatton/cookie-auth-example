@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<h1>create account</h1>
+<form action="/users/create" method="post">
+	<div>
+		<label for="username">Username</label>
+		<input type="text" name="username" value="">
+	</div>
+	<div>
+		<label for="password">Password</label>
+		<input type="password" name="password" value="">
+	</div>
+	<button type="submit">submit</button>
+</form>
+
+<h1>login</h1>
+<form action="/users/login" method="post">
+	<div>
+		<label for="username">Username</label>
+		<input type="text" name="username" value="">
+	</div>
+	<div>
+		<label for="password">Password</label>
+		<input type="password" name="password" value="">
+	</div>
+	<button type="submit">submit</button>
+</form>
